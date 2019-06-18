@@ -3,18 +3,23 @@
 <!DOCTYPE html>
 
 <html>
-<head runat="server">
-    <title></title>
-    <asp:ContentPlaceHolder id="head" runat="server">
-    </asp:ContentPlaceHolder>
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title> history website </title>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
+    <div id="container">
+        <div class="header">
+        </div>
+        <div id="nav">
+        </div>
+        <div class="sidebar">
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder id="MainContent1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
     </div>
-    </form>
 </body>
 </html>
