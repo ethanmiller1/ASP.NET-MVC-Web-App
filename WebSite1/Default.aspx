@@ -7,7 +7,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent1" Runat="Server">
     <div id="box">
         <p class="test">
-            <a target="_blank" href="index.html">
+            <a target="_blank" href="webpages/rome.aspx">
                 <img src="Images/rome.png" alt="" style="width:280px;">
             </a>
         </p>
