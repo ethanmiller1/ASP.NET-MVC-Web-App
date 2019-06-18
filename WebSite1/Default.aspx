@@ -1,4 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
  
 <%-- Add content to MainContent1 place holder for HTML page. (Similer to Footer/Header Partials in node.js) --%>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent1" Runat="Server">
