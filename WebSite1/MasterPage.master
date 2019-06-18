@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 <html>
-<head>
+<head runat="server">
     <link type="text/css" rel="stylesheet" href="style.css">
     <title> history website </title>
     <asp:ContentPlaceHolder ID="head" Runat="server">
