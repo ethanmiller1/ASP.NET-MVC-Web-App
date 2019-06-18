@@ -10,15 +10,20 @@
 <body>
     <div id="container">
         <div class="header">
+            <%-- TODO: Header goes here. --%>
         </div>
-        <div id="nav">
-        </div>
-        <div class="sidebar">
-        </div>
-        <div class="main">
-            <asp:ContentPlaceHolder id="MainContent1" runat="server">
 
-            </asp:ContentPlaceHolder>
+        <div id="nav">
+            <%-- TODO: Nav goes here. --%>
+        </div>
+
+        <div class="sidebar">
+            <%-- TODO: Sidebar goes here. --%>
+        </div>
+
+        <div class="main">
+            <%-- Create place holder for dynamic HTML pages. --%>
+            <asp:ContentPlaceHolder id="MainContent1" runat="server"></asp:ContentPlaceHolder>
         </div>
     </div>
 </body>
